@@ -1,0 +1,73 @@
+
+/* * PHONE DEVICE */
+@media (max-width: 991px) {
+    /* navbar */
+    nav {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 100%;
+      margin-top: 0px;
+    }
+    /* .container{
+      width: 100% !important;
+      margin: 0px !important;
+    } */
+    nav .navbar-toggler {
+      border: none;
+      font-size: 25px;
+    }
+    nav .navbar-toggler:focus {
+      box-shadow: none;
+    }
+    nav #myMenu {
+      padding: 10px 0;
+    }
+    nav #myMenu li a.nav-link {
+      padding: 12px 25px;
+    }
+  
+    /* BANNER */
+    #banner{
+      margin: 0px;
+    }
+    #banner {
+      padding: 35px 0;
+    }
+    #banner h1 {
+      font-size: 42px;
+    }
+    #banner .img-fluid {
+      max-width: 60%;
+    }
+    h1{
+      font-size: 25px !important;
+    }
+    p{
+      font-size: 16px !important;
+      color: var(--brand-secondary);
+    }
+    .banner-section .row{
+      margin-bottom: 10px;
+    }
+    .banner-section .dotted{
+      text-align: center;
+      margin-top: 0px !important;
+    }
+    .banner-section #h1{
+      font-size: 36px !important;
+    }
+    .client-section{
+      margin-top: 20px;
+    }
+    .client-section .icon-div{
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* * DESKTOP DEVICE */
+  
+  @media (min-width: 992px) {
+    .client-section{
+      margin-top: 40px !important;
+    }
+
+  }
